@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.typing {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 36px;
+  font-weight: 700;
+  animation: typing 4s steps(50, end) forwards;
+}
+
+.typing-delay {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 22px;
+  font-weight: 400;
+  width: 0; /* Start hidden */
+  opacity: 1;
+  animation: typing 4s steps(40, end) forwards 4.5s;
+}
+
+/* Keyframes */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+/* Cursor hide after typing */
+.typing {
+  animation-fill-mode: forwards;
+}
+.typing-delay {
+  animation-fill-mode: forwards;
+}
+
+.p-transition {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  color: #313131;
+  opacity: 0;                  /* hidden initially */
+  transform: translateY(20px); /* moved slightly down */
+  transition: all 1.5s ease;   /* smooth fade + slide */
+}
+
+.p-transition.show {
+  opacity: 1;
+  transform: translateY(0);    /* slide into place */
+}
+
+.font-color{
+  color: rgb(0, 0, 0);
+}
+
