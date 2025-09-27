@@ -1137,6 +1137,13 @@ body{
             margin-right: 2rem;
         }
 
+@media(max-width: 768px){
+    .faq .row{
+        padding:0px;
+        width:100%;
+    }
+}
+
 
         
 @media (max-width: 1200px){
