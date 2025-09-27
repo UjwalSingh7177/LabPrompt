@@ -36,6 +36,12 @@
   box-shadow: 0 4px 15px rgba(0,0,0,0.15);
   transform: scale(1);
   transition: transform 0.3s ease;
+
+  /* 🔥 Add these */
+  background-size: cover;       /* Crop and fill */
+  background-position: center;  /* Always center */
+  background-repeat: no-repeat;
+  height: 250px; /* make all cards same height */
 }
 
 .project-card img {

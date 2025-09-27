@@ -285,6 +285,17 @@
 .vision { border-color: #1e9fff; color: #1e9fff; }
 .values { border-color: #ffb400; color: #ffb400; }
 @media (max-width: 768px) {
+  .card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  padding-right: 36px;
+}
+  .card p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #555;
+  padding-right: 40px;
+}
   .mv-section {
   display: flex;
   justify-content: center;
