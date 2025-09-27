@@ -1139,8 +1139,11 @@ body{
 
 @media(max-width: 768px){
     .faq .row{
-        padding:0px;
+        padding-left: 0px;
         width:100%;
+    }
+    .faq .row .accordion-container {
+        padding-left: 55px;
     }
 }
 
